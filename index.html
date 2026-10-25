@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <a target="_blank">Coming Soon</a>
+    </div>
+
+    <div class="main">
+        <h1>Math Practice</h1>
+
+        <select id="operation" onchange="generateQuestion(); reset()">
+            <option value="add">Addition</option>
+            <option value="subtract">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+            <option value="exponents">Exponents</option>
+            <option value="squareroot">Square Roots</option>
+            <option value="percentages">Percentages</option>
+            <option value="BEDMAS">BEDMAS</option>
+        </select>
+
+
+        <p id="equation">0 x 0</p>
+
+        <p id="correctAns"></p>
+        <input id="ans">
+        <br><br>
+        <button id="subBtn">Submit</button>
+        <p>Correct: <span id="correct">0</span> | Wrong: <span id="wrong">0</span></p>
+
+        <p style="color: rgb(200, 0, 0); font-weight: bold;">When you change operation, everything resets to 0.</p>
+
+    </div>
+</body>
+</html>

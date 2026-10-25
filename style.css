@@ -1,0 +1,61 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.main {
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 175px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main #equation {
+    font-size: 100px;
+}
+
+.main #ans {
+    color: blue;
+    text-align: center;
+    width: fit-content;
+    font-size: 30px;
+}
+
+img {
+    width: 100px
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #f0f0f0;
+    
+}
+
+.nav a:hover {
+    background: #e0e0e0;
+}
+
+.nav a.active {
+    color: #fff;
+    background: #007bff;
+}
+
+#operation {
+    outline: none;
+}
